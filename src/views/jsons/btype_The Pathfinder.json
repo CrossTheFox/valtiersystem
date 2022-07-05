@@ -1,0 +1,28 @@
+{
+    "bondName": "The Pathfinder",
+    "bondDes": "Discover new things, meet new people, learn new things. The Pathfinder is always looking to horizon. They’re the first to clamber up the mountain, leap across the river, or dash down the slope. The road is their friend and they can’t wait to see what’s around the corner.",
+    "bondBonus1": "Traverse",
+    "bondBonus2": "Survey",
+    "ideals": {
+        "I1": "I addressed challenges with curiosity, discovery, or understanding",
+        "I2": "I expressed my heritage, background, or beliefs through my actions",
+        "I3": "I saw, heard, or tasted something truly unique"
+    },
+    "maxStress": 1,
+    "StressRelief": "Relieve 1 stress when you enter a new scene. This ability can activate any number of times a session.",
+    "StressSpecial": "Abilities or actions (such as leading a team action) that cost more than 1 stress only cost 1 stress for you",
+    "Harm": 4,
+    "BondPowers": {
+        "BP1": "Saddleborn - Get a knack for riding animals or piloting vehicles",
+        "BP2": "Windrider - When you push yourself to take a traverse or sneak action, you also get increased effect and choose one of the following for the action: you don’t touch the ground, you don’t make a sound, you can’t be touched while moving.",
+        "BP3": "Dabbler - Get +1 point to put in any action rating. At the start of an interlude, you must swap this point around to a new action. It can’t take any rating higher than 4.",
+        "BP4": "Freesoul - You can escape from any restraint, grab, shackle, hold, or prison cell without rolling. You can conceal this ability if you wish.",
+        "BP5": "Lay Burdens - 1/session, When you enter a populated location, untick 1 segment on all burdens, and you may push your next action for free.",
+        "BP6": "Airfeel - When you camp or start an expedition, you can ask any of the following questions about the next day or so of travel and get a truthful yes or no answer from the GM. Get increased effect when next acting on the answers.\n• Is it a long, dangerous, or arduous journey?\n• Is the journey defended or contested?\n• Are you currently being pursued, tracked, or hunted?",
+        "BP7": "Colortongue - You can understand and speak all languages and read all scripts. When you study a living creature, you can understand it even if it doesn’t speak language.",
+        "BP8": "Horizon Sweeper - When you’re outside, you can see in the dark. Your survey actions have increased effect and aren’t affected by weather or time of day.",
+        "BP9": "Memory of the Sole - Name a location you last set up camp. The GM will determine the difficulty of the journey there by answering the questions below. When the next scene starts, you and up to ten other willing people can choose to be safely there if you take 2 harm for each ‘yes’ answer, which could cause you to break. Work backwards to figure out how you got there (the scene doesn’t necessarily have to take place the next hour or day, for example).\n• Is it a long, dangerous, or arduous journey?\n• Is the location defended or contested?\n• Are you currently being pursued, tracked, or hunted?",
+        "BP10": "Lightspeed - 1/session - Your next traverse or survey action has superpowered effect",
+        "BP11": "Gambit of Momentum (requires 4 powers): Take a power from another Bond"
+    }
+}

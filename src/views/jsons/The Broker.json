@@ -1,0 +1,28 @@
+{
+    "bondName": "The Broker",
+    "bondDes": "Use your superior skills, class, intellect, or delicate touch to handle situations with elegance. You’ve been there before, and you have a plan for everything under the sun. Some may call you stuck up, but they don’t see how the strings you pull save their sorry hides again and again.",
+    "bondBonus1": "Command",
+    "bondBonus2": "Study",
+    "ideals": {
+        "I1": "I addressed challenges with manipulation, influence, or planning",
+        "I2": "I expressed my heritage, background, or beliefs through my actions",
+        "I3": "Despite my best efforts, we went wildly off plan"
+    },
+    "maxStress": 4,
+    "StressRelief": "You can clear all stress when another team mate becomes stressed out or breaks.",
+    "StressSpecial": "When you become stressed out or break, all team mates lose 1 stress",
+    "Harm": 3,
+    "BondPowers": {
+        "BP1": "Contingency (2/session) - You can use this power to ‘flash back’ in time to tell the GM how you prepared for a situation. You can use this ability before or after any action roll to do one of the following: Set up a character for the next action (even yourself), resist consequences of something that just happened, even for another character, increase effect or lower risk. To do so, however, you need to be able to tell the GM how you prepared and also make fortune roll\nusing one of your actions to see how well your preparation well On a 4+ gain the expected effect, on a 6 choose an extra effect, and on a 1-3 you had to abandon the plan (this ability has no effect this scene and regain 1 use).",
+        "BP2": "Swoon (1/session) - When you would take consequences as a result of your actions, you have may another willing character nearby take the consequences instead of you after you learn what they are. If they do, they take 1 xp.",
+        "BP3": "Immaculate - Get a knack for situations where being dressed appropriately would help you (disguises, uniforms, outfits, formalwear, etc)",
+        "BP4": "Beg, Borrow, or Steal - When you need the right tool for the job (a disguise, a tool, a weapon, a portable boat, a ladder) you can choose to have it right now. The tool lasts until the end of the session, or until you use this ability again. Increase effect and gain +1d on actions using the tool, but the GM chooses one: \n• It was stolen from someone, who will track you down by next interlude\n• It’s poor quality and breaks after the scene is over\n• It gets you into trouble after the scene is over (it attracts attention, there’s an unwanted side effect, it leads you somewhere you weren’t expecting to go)",
+        "BP5": "Fruitful - You have a contact or family member in every populated location. Define this person with the GM and pick one (choose carefully): not in trouble with the law, reliable, won’t need a favor. Roll +1d on actions where your contact could help you.",
+        "BP6": "Faust (1/session) - The next time you roll, treat all 1s as 6s. The next time you roll after that, treat all 6s as 1s.",
+        "BP7": "Make it work (1/session) - You may use your highest rated action for any single action with normal effectiveness (charming a door to open for example). Explain to the GM how you’re doing this.",
+        "BP8": "Ladder Climber - You can pursue ambitions twice during an interlude, but only if you pursue different ambitions.",
+        "BP9": "Golden Hand (1/session)- Increase the effect of your next Command or Study action to superpowered.",
+        "BP10": "",
+        "BP11": "Gambit of Smoke (requires 4 powers): Take a power from another Bond"
+    }
+}
