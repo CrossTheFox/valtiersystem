@@ -1,0 +1,19 @@
+Preguntas:
+	- ¿Usted juega normalmente TTRPGs?
+	- ¿Alguna vez había jugado Icon o algún otro juego de Massif Press (Lancer)?
+	- ¿Qué es lo que más le gustó de este sitio?
+	- ¿Qué cree que habría que mejorar y por qué?
+	
+ESCALA (del 1 al 7):
+	- ¿Está satisfecho con el sistema tras haber creado un Bond y haber creado un personaje Narrativo?
+	- ¿Estoy satisfecho con el tiempo que me tomó hacer las tareas?
+	- ¿Estoy satisfecho con el modo en que la información está desplegada en pantalla?
+
+Datos:
+	- Nombre:
+	- Edad:
+	- Genero:
+
+Tareas:
+	- Crear un Bond desde 0 y descargarlo. La tarea culmina cuando se descarga el archivo.
+	- Crear un personaje narrativo utilizando alguno de los Bonds ya existentes.

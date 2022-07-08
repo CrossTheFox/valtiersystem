@@ -1,0 +1,41 @@
+{
+    "charName": "<String>",
+    "charRace": "<String>",
+    "charCulture": "<String>",
+    "charBiogr": "<String>",
+    "pictureSite": "<html>",
+    "Nivel": "<Number>",
+    "Bond": "<Object>",
+    "NarrativeChar": {
+
+        "BondName": "<String>, heredado de BOND",
+
+        "Sneak": "<Number>",
+        "Excel": "<Number>",
+        "Survey": "<Number>",
+        "Channel": "<Number>",
+        "Charm": "<Number>",
+        "Command": "<Number>",
+        "Tinker": "<Number>",
+        "Study": "<Number>",
+        "Recall": "<Number>",
+        "Traverse": "<Number>",
+        "Smash": "<Number>",
+        "Endure": "<Number>",
+
+        "Snipe": "<Number>",
+        "Skirmish": "<Number>",
+        "Crush": "<Number>",
+
+        "Stress": "<Number>",
+        "Harm": "<Number>",
+
+        "StressRelief": "<String>, heredado de BOND",
+        "StressSpecial": "<String>, heredado de BOND",
+        "BondPowers": "<Object>, heredado de BOND"
+    },
+
+    "CombatChar": {
+        "JobName": "<String>, heredado de JOB"
+    }
+}

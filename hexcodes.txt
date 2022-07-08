@@ -1,0 +1,9 @@
+Colores Hex:
+
+Navbar: #ff3865
+Background: #ffeed3
+Comp1: #ed8e7f
+Comp2: #e59067
+Comp3: #d45b47
+
+DarkRoseComp4: #4a001d
