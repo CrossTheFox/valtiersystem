@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/valtiersystem/precache-manifest.479c0213a4c6535c98006c3e95e550fe.js"
+  "/valtiersystem/precache-manifest.c633a6023f29e9c043b766a5f9895d98.js"
 );
 
 workbox.clientsClaim();
