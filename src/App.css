@@ -37,26 +37,31 @@
   }
 }
 
+#Father_Nav {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+
 #Navigation {
+    width: 60%;
+    height: 100%;
+    background: #ff3865;
+}
 
-  /* ff 3.6+ */
-  background:-moz-linear-gradient(158deg, rgba(255, 56, 101, 1) 67%, rgba(255, 238, 211, 1) 69%); 
+#Navigation-Cont {
+  width: 0;
+  height: 0;
+  border-top: 74.7px solid #ff3865;
+  border-right: 150px solid transparent;
+}
 
-  /* safari 5.1+,chrome 10+ */
-  background:-webkit-linear-gradient(158deg, rgba(255, 56, 101, 1) 67%, rgba(255, 238, 211, 1) 69%);
+.left, .right {
+    display: inline-block;
+}
 
-  /* opera 11.10+ */
-  background:-o-linear-gradient(158deg, rgba(255, 56, 101, 1) 67%, rgba(255, 238, 211, 1) 69%);
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEED3', endColorstr='#FF3865', GradientType=1 );
-
-  /* ie 10+ */
-  background:-ms-linear-gradient(158deg, rgba(255, 56, 101, 1) 67%, rgba(255, 238, 211, 1) 69%);
-
-  /* global 94%+ browsers support */
-  background:linear-gradient(158deg, rgba(255, 56, 101, 1) 67%, rgba(255, 238, 211, 1) 69%);
-
+.Select {
+    border-color: #ff3865;
 }
 
 #Footer{

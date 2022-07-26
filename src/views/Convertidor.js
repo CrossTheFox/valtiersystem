@@ -14,6 +14,8 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Slider from '@mui/material/Slider';
 import Stack from '@mui/material/Stack';
+import Fade from '@mui/material/Fade';
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 
 
 import AddCircleIcon from '@mui/icons-material/AddCircle';
@@ -98,6 +100,17 @@ const IconSlider = styled(Slider)({
     },
   },
 });
+
+const TutorialTooltip = styled(({ className, ...props }) => (
+    <Tooltip {...props} arrow classes={{ popper: className }} />
+  ))(({ theme }) => ({
+    [`& .${tooltipClasses.arrow}`]: {
+      color: "#4a001d",
+    },
+    [`& .${tooltipClasses.tooltip}`]: {
+      backgroundColor: "#4a001d",
+    },
+}));
   
 
 const Convertidor = (loginstate) => {
@@ -346,9 +359,37 @@ const Convertidor = (loginstate) => {
                         </Grid>
                         <Grid item lg={3} md={3} xs={3} sm={3}>
                             {dataType == 4 ? (
-                                <ClickedButton variant="contained" value={4} onClick={handleType}>Bond Power</ClickedButton>
+                                <TutorialTooltip
+                                TransitionComponent={Fade}
+                                TransitionProps={{ timeout: 600 }}
+                                title={
+                                    <React.Fragment>
+                                        <Typography color="inherit"><b>Bond</b></Typography>
+                                        {"Un Bond es un 'Pacto' que utiliza la parte Narrativa de los Personajes para dar ciertas caracteristicas "}
+                                        {"necesarias para estos, desde cuanto daño pueden sostener antes de recibir un 'Burden', cuando estrés pueden "}
+                                        {"soportar, los ideales que sigue el personaje y los aspectos mecanicos más necesarios cómo los Bond Powers que "}
+                                        {"pueden dar vuelta situaciones o dar bonus a acciones riesgosas."}
+                                    </React.Fragment>
+                                    }
+                            >
+                                <ClickedButton variant="contained" value={4} onClick={handleType}>Bond</ClickedButton>
+                                </TutorialTooltip>
                             ) : (
-                                <ConverterButton variant="contained" value={4} onClick={handleType}>Bond Power</ConverterButton>
+                                <TutorialTooltip
+                                    TransitionComponent={Fade}
+                                    TransitionProps={{ timeout: 600 }}
+                                    title={
+                                        <React.Fragment>
+                                            <Typography color="inherit"><b>Bond</b></Typography>
+                                            {"Un Bond es un 'Pacto' que utiliza la parte Narrativa de los Personajes para dar ciertas caracteristicas "}
+                                            {"necesarias para estos, desde cuanto daño pueden sostener antes de recibir un 'Burden', cuando estrés pueden "}
+                                            {"soportar, los ideales que sigue el personaje y los aspectos mecanicos más necesarios cómo los Bond Powers que "}
+                                            {"pueden dar vuelta situaciones o dar bonus a acciones riesgosas."}
+                                        </React.Fragment>
+                                        }
+                                >
+                                    <ConverterButton variant="contained" value={4} onClick={handleType}>Bond</ConverterButton>
+                                </TutorialTooltip>
                             )}
                         </Grid>
                     </Grid>

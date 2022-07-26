@@ -24,9 +24,9 @@ import {
 const ConverterButton = styled(Button)(({ theme }) => ({
     color: '#fff',
     backgroundColor: '#d45b47',
-    maxWidth: '100%', 
+    maxWidth: '50%', 
     maxHeight: '100%', 
-    minWidth: '100%', 
+    minWidth: '50%', 
     minHeight: '100%',
     '&:hover': {
       backgroundColor: '#b54e3d',
@@ -37,7 +37,7 @@ const ConverterButton = styled(Button)(({ theme }) => ({
 
 const Personajes = () => {
     return(
-        <Container maxWidth='lg' >
+        <Container>
             <Grid container spacing={0} id="SpaceBRows" justifyContent="center" alignItems="center">
                 <Grid item xs={12} lg={12}>
                     {/* Aqui vamos a colocar un Map con TODOS los personajes que hay*/}
